@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Enforce generic ramdisk allow list
+$(call inherit-product, $(SRC_TARGET_DIR)/product/generic_ramdisk.mk)
+
 # Call the proprietary setup.
 $(call inherit-product, vendor/oneplus/caihong/caihong-vendor.mk)
 
