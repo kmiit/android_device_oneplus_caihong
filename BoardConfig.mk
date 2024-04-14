@@ -115,6 +115,7 @@ include device/qcom/sepolicy_vndr/SEPolicy.mk
 DEVICE_MANIFEST_SKUS := pineapple
 DEVICE_MANIFEST_PINEAPPLE_FILES := $(DEVICE_PATH)/configs/vintf/manifest_pineapple.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := vendor/lineage/config/device_framework_matrix.xml
 
 # Inherit from the proprietary version
 -include vendor/oneplus/caihong/BoardConfigVendor.mk
