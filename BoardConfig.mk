@@ -7,10 +7,10 @@
 # Include the common OEM chipset BoardConfig.
 include device/oneplus/sm8650-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/waffle
+DEVICE_PATH := device/oneplus/caihong
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := OP5929L1,OP595DL1
+TARGET_OTA_ASSERT_DEVICE := OPD2404
 
 # Display
 TARGET_SCREEN_DENSITY := 640
@@ -44,4 +44,4 @@ SOONG_CONFIG_OPLUS_LINEAGE_VIBRATOR_HAL := \
 SOONG_CONFIG_OPLUS_LINEAGE_VIBRATOR_HAL_USE_EFFECT_STREAM := true
 
 # Include the proprietary files BoardConfig.
-include vendor/oneplus/waffle/BoardConfigVendor.mk
+include vendor/oneplus/caihong/BoardConfigVendor.mk

@@ -8,20 +8,20 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from waffle device
-$(call inherit-product, device/oneplus/waffle/device.mk)
+# Inherit from device
+$(call inherit-product, device/oneplus/caihong/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_waffle
-PRODUCT_DEVICE := waffle
+PRODUCT_NAME := lineage_caihong
+PRODUCT_DEVICE := caihong
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := CPH2581
+PRODUCT_MODEL := OPD2404
 
 PRODUCT_SYSTEM_NAME := $(PRODUCT_MODEL)
-PRODUCT_SYSTEM_DEVICE := OP5929L1
+PRODUCT_SYSTEM_DEVICE := OP5D77L1
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
