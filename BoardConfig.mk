@@ -42,6 +42,9 @@ BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 # Display
 TARGET_SCREEN_DENSITY := 640
 
+# Filesystem
+TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
+
 # Fstab
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/init/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
