@@ -108,5 +108,8 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/etc/fstab.qcom
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
+# Vintf
+DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
+
 # Inherit from the proprietary version
 -include vendor/oneplus/caihong/BoardConfigVendor.mk
